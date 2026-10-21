@@ -188,6 +188,13 @@
 			"css": ["./styles/websites/discord.css"],
 			"run_at": "document_start",
 			"favicon": "https://icons.duckduckgo.com/ip3/www.discord.com.ico"
+		},
+		{
+			"name": "Digitech/Galaxus",
+			"matches": ["[^ ]*://(www.)?(digitec|galaxus).ch/[^ ]*"],
+			"css": ["./styles/websites/galaxus.ch.css"],
+			"run_at": "document_start",
+			"favicon": "https://static03.galaxus.com/static/images/galaxus/pwa/favicon-32x32.fee9b2ee.png"
 		}
 	]
 }
